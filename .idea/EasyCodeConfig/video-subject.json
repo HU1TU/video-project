@@ -1,0 +1,24 @@
+{
+  "name" : "Subject",
+  "comment" : "学科表，存储各个学科的名字",
+  "fullColumn" : [ {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "subjectName",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.tt",
+  "savePath" : "./video-parent-pojo/src/main/java/com/tt",
+  "saveModelName" : "video-parent-pojo"
+}

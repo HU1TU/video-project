@@ -1,13 +1,24 @@
 package com.tt.pojo;
 
-public class Course {
+import java.io.Serializable;
+
+/**
+ * (Course)实体类
+ *
+ * @author makejava
+ * @since 2020-10-20 10:54:20
+ */
+public class Course implements Serializable {
+    private static final long serialVersionUID = -43774745626830038L;
+    
     private Integer id;
-
+    
     private String courseTitle;
-
+    
+    private String courseDesc;
+    
     private Integer subjectId;
 
-    private String courseDesc;
 
     public Integer getId() {
         return id;
@@ -22,7 +33,15 @@ public class Course {
     }
 
     public void setCourseTitle(String courseTitle) {
-        this.courseTitle = courseTitle == null ? null : courseTitle.trim();
+        this.courseTitle = courseTitle;
+    }
+
+    public String getCourseDesc() {
+        return courseDesc;
+    }
+
+    public void setCourseDesc(String courseDesc) {
+        this.courseDesc = courseDesc;
     }
 
     public Integer getSubjectId() {
@@ -33,11 +52,4 @@ public class Course {
         this.subjectId = subjectId;
     }
 
-    public String getCourseDesc() {
-        return courseDesc;
-    }
-
-    public void setCourseDesc(String courseDesc) {
-        this.courseDesc = courseDesc == null ? null : courseDesc.trim();
-    }
 }

@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="video-parent-dao" />
-        <module name="video-parent-service" />
         <module name="video-parent-web" />
+        <module name="video-parent-service" />
+        <module name="video-parent-dao" />
         <module name="video-parent-pojo" />
         <module name="video-parent-utils" />
       </profile>

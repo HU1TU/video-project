@@ -1,29 +1,41 @@
 package com.tt.pojo;
 
 import java.util.Date;
+import java.io.Serializable;
 
-public class User {
+/**
+ * (User)实体类
+ *
+ * @author makejava
+ * @since 2020-10-20 10:54:21
+ */
+public class User implements Serializable {
+    private static final long serialVersionUID = 322662325057029839L;
+    
     private Integer id;
-
+    
     private String email;
-
+    
     private String phonenum;
-
+    
     private String password;
-
+    
     private String code;
-
+    /**
+    * 昵称
+    */
     private String nickname;
-
+    
     private String sex;
-
+    
     private String birthday;
-
+    
     private String address;
-
+    
     private String imgurl;
-
+    
     private Date createtime;
+
 
     public Integer getId() {
         return id;
@@ -38,7 +50,7 @@ public class User {
     }
 
     public void setEmail(String email) {
-        this.email = email == null ? null : email.trim();
+        this.email = email;
     }
 
     public String getPhonenum() {
@@ -46,7 +58,7 @@ public class User {
     }
 
     public void setPhonenum(String phonenum) {
-        this.phonenum = phonenum == null ? null : phonenum.trim();
+        this.phonenum = phonenum;
     }
 
     public String getPassword() {
@@ -54,7 +66,7 @@ public class User {
     }
 
     public void setPassword(String password) {
-        this.password = password == null ? null : password.trim();
+        this.password = password;
     }
 
     public String getCode() {
@@ -62,7 +74,7 @@ public class User {
     }
 
     public void setCode(String code) {
-        this.code = code == null ? null : code.trim();
+        this.code = code;
     }
 
     public String getNickname() {
@@ -70,7 +82,7 @@ public class User {
     }
 
     public void setNickname(String nickname) {
-        this.nickname = nickname == null ? null : nickname.trim();
+        this.nickname = nickname;
     }
 
     public String getSex() {
@@ -78,7 +90,7 @@ public class User {
     }
 
     public void setSex(String sex) {
-        this.sex = sex == null ? null : sex.trim();
+        this.sex = sex;
     }
 
     public String getBirthday() {
@@ -86,7 +98,7 @@ public class User {
     }
 
     public void setBirthday(String birthday) {
-        this.birthday = birthday == null ? null : birthday.trim();
+        this.birthday = birthday;
     }
 
     public String getAddress() {
@@ -94,7 +106,7 @@ public class User {
     }
 
     public void setAddress(String address) {
-        this.address = address == null ? null : address.trim();
+        this.address = address;
     }
 
     public String getImgurl() {
@@ -102,7 +114,7 @@ public class User {
     }
 
     public void setImgurl(String imgurl) {
-        this.imgurl = imgurl == null ? null : imgurl.trim();
+        this.imgurl = imgurl;
     }
 
     public Date getCreatetime() {
@@ -112,4 +124,5 @@ public class User {
     public void setCreatetime(Date createtime) {
         this.createtime = createtime;
     }
+
 }

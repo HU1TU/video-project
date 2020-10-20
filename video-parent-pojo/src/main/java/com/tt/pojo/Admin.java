@@ -1,13 +1,26 @@
 package com.tt.pojo;
 
-public class Admin {
+import java.io.Serializable;
+
+/**
+ * (Admin)实体类
+ *
+ * @author makejava
+ * @since 2020-10-20 10:54:19
+ */
+public class Admin implements Serializable {
+    private static final long serialVersionUID = -87106808367311659L;
+    
     private Integer id;
-
+    
     private String username;
-
+    
     private String password;
-
+    /**
+    * 角色
+    */
     private String roles;
+
 
     public Integer getId() {
         return id;
@@ -22,7 +35,7 @@ public class Admin {
     }
 
     public void setUsername(String username) {
-        this.username = username == null ? null : username.trim();
+        this.username = username;
     }
 
     public String getPassword() {
@@ -30,7 +43,7 @@ public class Admin {
     }
 
     public void setPassword(String password) {
-        this.password = password == null ? null : password.trim();
+        this.password = password;
     }
 
     public String getRoles() {
@@ -38,6 +51,7 @@ public class Admin {
     }
 
     public void setRoles(String roles) {
-        this.roles = roles == null ? null : roles.trim();
+        this.roles = roles;
     }
+
 }

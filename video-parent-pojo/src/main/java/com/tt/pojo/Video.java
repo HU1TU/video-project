@@ -1,23 +1,50 @@
 package com.tt.pojo;
 
-public class Video {
+import java.io.Serializable;
+
+/**
+ * (Video)实体类
+ *
+ * @author makejava
+ * @since 2020-10-20 10:47:18
+ */
+public class Video implements Serializable {
+    private static final long serialVersionUID = 381909431829102468L;
+    
     private Integer id;
-
+    /**
+    * 标题
+    */
     private String title;
-
+    /**
+    * 简介
+    */
+    private String detail;
+    /**
+    * 时长
+    */
     private Integer time;
-
+    /**
+    * 关联主讲人
+    */
     private Integer speakerId;
-
+    /**
+    * 关联课程表
+    */
     private Integer courseId;
-
+    /**
+    * 视频播放地址
+    */
     private String videoUrl;
-
+    /**
+    * 封面地址
+    */
     private String imageUrl;
-
+    /**
+    * 播放次数
+    */
     private Integer playNum;
 
-    private String detail;
 
     public Integer getId() {
         return id;
@@ -32,7 +59,15 @@ public class Video {
     }
 
     public void setTitle(String title) {
-        this.title = title == null ? null : title.trim();
+        this.title = title;
+    }
+
+    public String getDetail() {
+        return detail;
+    }
+
+    public void setDetail(String detail) {
+        this.detail = detail;
     }
 
     public Integer getTime() {
@@ -64,7 +99,7 @@ public class Video {
     }
 
     public void setVideoUrl(String videoUrl) {
-        this.videoUrl = videoUrl == null ? null : videoUrl.trim();
+        this.videoUrl = videoUrl;
     }
 
     public String getImageUrl() {
@@ -72,7 +107,7 @@ public class Video {
     }
 
     public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl == null ? null : imageUrl.trim();
+        this.imageUrl = imageUrl;
     }
 
     public Integer getPlayNum() {
@@ -83,11 +118,4 @@ public class Video {
         this.playNum = playNum;
     }
 
-    public String getDetail() {
-        return detail;
-    }
-
-    public void setDetail(String detail) {
-        this.detail = detail == null ? null : detail.trim();
-    }
 }
