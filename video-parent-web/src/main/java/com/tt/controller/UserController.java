@@ -102,7 +102,7 @@ public class UserController {
         String sessionEmail = (String) session.getAttribute("email");
         String sessionCode = (String) session.getAttribute("code");
         if (sessionEmail.equals(email) && sessionCode.equals(code)) {
-            return "/before/reset_password";
+            return "/before/reset_password.jsp";
         }
         return "redirect:/user/forgetPassword";
     }
@@ -139,7 +139,7 @@ public class UserController {
 
     @RequestMapping("/changeProfile")
     public String changeProfile() {
-        return "/before/change_profile";
+        return "/before/change_profile.jsp";
     }
 
     @RequestMapping("/updateUser")
