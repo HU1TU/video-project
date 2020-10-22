@@ -62,4 +62,11 @@ public interface UserDao {
      */
     int deleteById(Integer id);
 
+    User selectUserByEmailAndPassword(User user);
+
+    User selectUserByEmail(String email);
+
+    Boolean insertUser(User user);
+
+    Boolean updateUser(User user);
 }
