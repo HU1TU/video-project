@@ -6,144 +6,98 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0955cf8c-f9c9-43fb-a64d-46afbac1f154" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/AdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/CourseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/SpeakerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/SubjectDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/AdminDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/CourseDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/SpeakerDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/SubjectDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/VideoDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/AdminDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/AdminDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/CourseDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/CourseDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/SpeakerDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/SpeakerDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/SubjectDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/SubjectDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/VideoDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/QueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/QueryVo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/SpeakerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/SubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/VideoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/SpeakerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/SubjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/VideoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/AdminService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/CourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/SpeakerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/SubjectService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/VideoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/impl/CourseServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/impl/SpeakerServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/impl/SubjectServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/impl/VideoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/SpeakerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/SubjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/VideoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/classes/com/tt/controller/AdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/classes/com/tt/controller/CourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/classes/com/tt/controller/SpeakerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/classes/com/tt/controller/SubjectController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/classes/com/tt/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/classes/com/tt/controller/VideoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/com/tt/controller/AdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/com/tt/controller/CourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/com/tt/controller/SpeakerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/com/tt/controller/SubjectController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/com/tt/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/com/tt/controller/VideoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/log4j-api-2.13.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/log4j-core-2.13.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/lombok-1.18.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/video-parent-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EasyCodeConfig/video-admin.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/video-admin.json" afterDir="false" />
+    <list default="true" id="8851a2b6-e7f3-4133-a7ca-6f293da1ffa1" name="Default Changelist" comment="第3次">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/video_parent_web_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/video_parent_web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2_1_b03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_3_0_alpha_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20190722.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/applicationContext.xml~Stashed changes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/video-parent-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-pojo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-pojo/target/video-parent-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/video-parent-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/ImageCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/MailUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/NavigationTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/before/failed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/before/sucess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/javax.mail-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/video-utils-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b25c2de7-5aff-4242-805d-0d56406e2d2a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b25c2de7-5aff-4242-805d-0d56406e2d2a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/VideoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/VideoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/entity/Video.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-dao/src/main/resources/mapper/VideoDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-dao/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-dao/target/classes/META-INF/video-parent-dao.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/VideoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/VideoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/entity/Video.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-dao/target/classes/mapper/VideoDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-dao/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Speaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/META-INF/video-parent-pojo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Speaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Speaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Subject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Video.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/ImageCut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/MailUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/NavigationTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/Page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/StringUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-utils/video-parent-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-utils/video-parent-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/behind/addVideo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/behind/addVideo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/behind/speakerList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/behind/speakerList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/behind/videoList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/behind/videoList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/tld/commons.tld" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/tld/commons.tld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/behind/addVideo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/behind/addVideo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/behind/speakerList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/behind/speakerList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/behind/videoList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/behind/videoList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/video-parent-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/video-parent-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/video-parent-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/video-parent-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/tld/commons.tld" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/tld/commons.tld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/video-parent-web/target/" />
+    <ignored path="$PROJECT_DIR$/video-parent-dao/target/" />
+    <ignored path="$PROJECT_DIR$/video-parent-service/target/" />
+    <ignored path="$PROJECT_DIR$/video-parent-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/video-parent-utils/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,6 +136,67 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="198" column="41" lean-forward="true" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2119#2120#0" expanded="true" />
+                <element signature="e#2167#2168#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="74" column="7" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+              <folding>
+                <element signature="e#1517#1518#0" expanded="true" />
+                <element signature="e#1582#1583#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/UserDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -192,6 +207,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/video-parent-web/pom.xml" />
+        <option value="$PROJECT_DIR$/video-parent-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/MailUtils.java" />
+        <option value="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/UserService.java" />
+        <option value="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/UserController.java" />
+      </list>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -210,9 +239,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\maven_room" />
-        <option name="mavenHome" value="D:/maven/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2\conf\settings.xml" />
+        <option name="localRepository" value="F:\maven_repository" />
+        <option name="mavenHome" value="F:/WebSoft/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="F:\WebSoft\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -221,8 +250,74 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="692" />
+    <option name="width" value="1228" />
+    <option name="height" value="1089" />
+  </component>
   <component name="ProjectId" id="1j8ENMZBJ6Wz4DFlp5NkBloL8ZQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="video-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="video-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="video-parent-utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="video-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="video-parent-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="video-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="video-parent-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="video-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="video-parent-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="video-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="video-parent-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -240,7 +335,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -260,6 +355,18 @@
       <recent name="D:\important\the third stage\shuangyu\video-parent\video-parent-dao\src\main\resources\com\tt\dao" />
       <recent name="D:\important\the third stage\shuangyu\video-parent\video-parent-dao\src\main\resources" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -363,7 +470,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0955cf8c-f9c9-43fb-a64d-46afbac1f154" name="Default Changelist" comment="" />
+      <changelist id="8851a2b6-e7f3-4133-a7ca-6f293da1ffa1" name="Default Changelist" comment="第3次" />
       <created>1603100864392</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -375,6 +482,7 @@
       <workItem from="1603177280317" duration="57874000" />
       <workItem from="1603289444581" duration="703000" />
       <workItem from="1603290160971" duration="5322000" />
+      <workItem from="1603347074232" duration="1321000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1603108999141</created>
@@ -411,8 +519,70 @@
       <option name="project" value="LOCAL" />
       <updated>1603164779254</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第3次">
+      <created>1603348356862</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603348356862</updated>
+    </task>
+    <task id="LOCAL-00007" summary="第3次">
+      <created>1603348375438</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603348375438</updated>
+    </task>
+    <task id="LOCAL-00008" summary="第3次">
+      <created>1603348395142</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603348395142</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4072000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="554" y="0" width="982" height="871" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27705628" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32882273" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32931727" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32037532" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3287483" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32900432" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -536,5 +706,128 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="344" y="186" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1603290699918" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/video-parent-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" selection-start-line="27" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-parent-utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/SubjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/ImageCut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/MailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#961#1368#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="74" column="7" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+          <folding>
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1582#1583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="198" column="41" lean-forward="true" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2167#2168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

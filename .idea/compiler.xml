@@ -11,7 +11,6 @@
         <module name="video-parent-util" />
         <module name="video-parent-web" />
         <module name="video-parent-pojo" />
-        <module name="video-parent-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
