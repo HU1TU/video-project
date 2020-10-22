@@ -1,31 +1,40 @@
 package com.tt.controller;
 
-import com.tt.pojo.Course;
+import com.tt.pojo.Subject;
 import com.tt.service.CourseService;
+import com.tt.service.SubjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
-
-import javax.annotation.Resource;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
- * (Course)表控制层
- *
- * @author makejava
- * @since 2020-10-20 15:13:19
+ * @Author Zeux
+ * @Create by 2020/10/20 16:09
  */
+
 @Controller
 @RequestMapping("course")
 public class CourseController {
-    /**
-     * 服务对象
-     */
+
     @Autowired
     private CourseService courseService;
 
-    @RequestMapping("selectOne")
-    public Course selectOne(Integer id) {
-        return this.courseService.queryById(id);
-    }
+    @Autowired
+    private SubjectService subjectService;
 
+
+    @RequestMapping("course/{subjectId}")
+    public ModelAndView course(@PathVariable String subjectId, ModelAndView modelAndView) {
+
+        Subject subject = subjectService.selectSubjectById(subjectId);
+
+        modelAndView.addObject("subject", subject);
+
+        modelAndView.setViewName("before/course.jsp");
+
+        return modelAndView;
+    }
 }
+

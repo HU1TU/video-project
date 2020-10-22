@@ -22,32 +22,12 @@ public class CourseServiceImpl implements CourseService {
     private CourseDao courseDao;
 
     @Override
-    public Course queryById(Integer id) {
-        return null;
+    public Course selectCourseById(String id) {
+        return courseDao.selectCourseById(id);
     }
 
     @Override
-    public List<Course> queryAllByLimit(int offset, int limit) {
-        return null;
-    }
-
-    @Override
-    public Course insert(Course course) {
-        return null;
-    }
-
-    @Override
-    public Course update(Course course) {
-        return null;
-    }
-
-    @Override
-    public int deleteById(Integer id) {
-        return 0;
-    }
-
-    @Override
-    public List<Course> findAll() {
-        return courseDao.queryAll(null);
+    public List<Course> selectAll() {
+        return courseDao.selectAll();
     }
 }

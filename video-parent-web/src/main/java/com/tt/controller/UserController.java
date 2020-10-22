@@ -5,6 +5,7 @@ import com.tt.service.UserService;
 import com.tt.videos.utils.ImageCut;
 import com.tt.videos.utils.MailUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -22,8 +23,8 @@ import java.util.UUID;
  * @author makejava
  * @since 2020-10-20 15:13:19
  */
-@RestController
-@RequestMapping("user")
+@Controller
+@RequestMapping("/user")
 public class UserController {
 
     @Autowired
@@ -63,7 +64,7 @@ public class UserController {
     @RequestMapping("/insertUser")
     @ResponseBody
     public String insertUser(User user, HttpServletRequest request) {
-        user.setCreatetime(new Date());
+        user.setCreateTime(new Date());
         if (userService.insertUser(user)) {
             HttpSession session = request.getSession();
             session.setAttribute("userAccount", user.getEmail());
@@ -146,7 +147,7 @@ public class UserController {
     public String updateUser(String nickName, String sex, String birthday, String address, HttpServletRequest request) {
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute("user");
-        user.setNickname(nickName);
+        user.setNickName(nickName);
         user.setSex(sex);
         user.setBirthday(birthday);
         user.setAddress(address);
@@ -206,7 +207,7 @@ public class UserController {
 
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute("user");
-        user.setImgurl(filename);
+        user.setImgUrl(filename);
         userService.updateUser(user);
 
         return "redirect:/user/showMyProfile";

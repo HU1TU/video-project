@@ -49,7 +49,7 @@ public class VideoController {
                        @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum) {
 
         List<Speaker> speakerList = speakerService.findAll();
-        List<Course> courseList = courseService.findAll();
+        List<Course> courseList = courseService.selectAll();
 
         PageHelper.startPage(pageNum, 10);
         List<Video> videoList = videoService.findAll(queryVo);
@@ -83,7 +83,7 @@ public class VideoController {
     @RequestMapping("addVideo")
     public String addVideo(Model model) {
         List<Speaker> speakerList = speakerService.findAll();
-        List<Course> courseList = courseService.findAll();
+        List<Course> courseList = courseService.selectAll();
 
         model.addAttribute("speakerList", speakerList);
         model.addAttribute("courseList", courseList);
@@ -95,7 +95,7 @@ public class VideoController {
     public String edit(Integer id, Model model) {
         Video video = videoService.queryById(id);
         List<Speaker> speakerList = speakerService.findAll();
-        List<Course> courseList = courseService.findAll();
+        List<Course> courseList = courseService.selectAll();
 
         model.addAttribute("speakerList", speakerList);
         model.addAttribute("courseList", courseList);

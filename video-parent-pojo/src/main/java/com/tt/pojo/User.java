@@ -11,33 +11,35 @@ import java.io.Serializable;
  * @author makejava
  * @since 2020-10-20 10:54:21
  */
-@Data
-public class User {
-
+public class User implements Serializable {
     private Integer id;
-    
     private String email;
-    
-    private String phonenum;
-    
+    private String phoneNum;
     private String password;
-    
     private String code;
-    /**
-    * 昵称
-    */
-    private String nickname;
-    
+    private String nickName;
     private String sex;
-    
     private String birthday;
-    
     private String address;
-    
-    private String imgurl;
-    
-    private Date createtime;
+    private String imgUrl;
+    private Date createTime;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", email='" + email + '\'' +
+                ", phoneNum='" + phoneNum + '\'' +
+                ", password='" + password + '\'' +
+                ", code='" + code + '\'' +
+                ", nickName='" + nickName + '\'' +
+                ", sex='" + sex + '\'' +
+                ", birthday='" + birthday + '\'' +
+                ", address='" + address + '\'' +
+                ", imgUrl='" + imgUrl + '\'' +
+                ", createTime=" + createTime +
+                '}';
+    }
 
     public Integer getId() {
         return id;
@@ -55,12 +57,12 @@ public class User {
         this.email = email;
     }
 
-    public String getPhonenum() {
-        return phonenum;
+    public String getPhoneNum() {
+        return phoneNum;
     }
 
-    public void setPhonenum(String phonenum) {
-        this.phonenum = phonenum;
+    public void setPhoneNum(String phoneNum) {
+        this.phoneNum = phoneNum;
     }
 
     public String getPassword() {
@@ -79,12 +81,12 @@ public class User {
         this.code = code;
     }
 
-    public String getNickname() {
-        return nickname;
+    public String getNickName() {
+        return nickName;
     }
 
-    public void setNickname(String nickname) {
-        this.nickname = nickname;
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
     }
 
     public String getSex() {
@@ -111,20 +113,19 @@ public class User {
         this.address = address;
     }
 
-    public String getImgurl() {
-        return imgurl;
+    public String getImgUrl() {
+        return imgUrl;
     }
 
-    public void setImgurl(String imgurl) {
-        this.imgurl = imgurl;
+    public void setImgUrl(String imgUrl) {
+        this.imgUrl = imgUrl;
     }
 
-    public Date getCreatetime() {
-        return createtime;
+    public Date getCreateTime() {
+        return createTime;
     }
 
-    public void setCreatetime(Date createtime) {
-        this.createtime = createtime;
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
     }
-
 }
