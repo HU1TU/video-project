@@ -8,12 +8,12 @@
     <artifactId>video-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>video-parent-controller</module>
         <module>video-parent-dao</module>
         <module>video-parent-pojo</module>
         <module>video-parent-service</module>
-        <module>video-parent-utils</module>
         <module>video-parent-web</module>
+        <module>video-parent-utils</module>
+        <module>video-parent-utils</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -89,7 +89,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>${mysql.version}</version>
+            <version>8.0.15</version>
         </dependency>
         <!--mybatis-->
         <dependency>
@@ -173,6 +173,30 @@
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
             <version>5.1.11</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.13.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.13.3</version>
         </dependency>
     </dependencies>
 

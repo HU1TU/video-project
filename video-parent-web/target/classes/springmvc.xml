@@ -17,6 +17,9 @@
         <!-- 开启springmvc注解 -->
         <mvc:annotation-driven />
 
+        <!-- 不拦截静态资源 -->
+        <mvc:default-servlet-handler></mvc:default-servlet-handler>
+
         <!-- 视图解析器 -->
         <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
                 <!-- 设置前后缀 -->

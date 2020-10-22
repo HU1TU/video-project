@@ -1,6 +1,7 @@
 package com.tt.pojo;
 
-import java.io.Serializable;
+
+import lombok.Data;
 
 /**
  * (Speaker)实体类
@@ -8,9 +9,9 @@ import java.io.Serializable;
  * @author makejava
  * @since 2020-10-20 10:48:01
  */
-public class Speaker implements Serializable {
-    private static final long serialVersionUID = 755578886049035560L;
-    
+@Data
+public class Speaker {
+
     private Integer id;
     /**
     * 主讲人姓名

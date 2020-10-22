@@ -1,5 +1,7 @@
 package com.tt.pojo;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
@@ -8,6 +10,7 @@ import java.io.Serializable;
  * @author makejava
  * @since 2020-10-20 10:54:20
  */
+@Data
 public class Course implements Serializable {
     private static final long serialVersionUID = -43774745626830038L;
     

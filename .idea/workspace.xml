@@ -6,15 +6,144 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0955cf8c-f9c9-43fb-a64d-46afbac1f154" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/video-parent-dao/target/" />
-    <ignored path="$PROJECT_DIR$/video-parent-service/target/" />
-    <ignored path="$PROJECT_DIR$/video-parent-controller/target/" />
-    <ignored path="$PROJECT_DIR$/video-parent-web/target/" />
-    <ignored path="$PROJECT_DIR$/video-parent-pojo/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="0955cf8c-f9c9-43fb-a64d-46afbac1f154" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/CourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/SpeakerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/SubjectDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/AdminDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/CourseDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/SpeakerDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/SubjectDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/VideoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/AdminDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/AdminDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/CourseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/CourseDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/SpeakerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/SpeakerDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/SubjectDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/SubjectDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/VideoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/QueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/SpeakerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/SubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/VideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/SpeakerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/SubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/src/main/java/com/tt/service/impl/VideoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/CourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/SpeakerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/SubjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/VideoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/impl/SpeakerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/impl/SubjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-service/target/classes/com/tt/service/impl/VideoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/SpeakerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/SubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/src/main/java/com/tt/controller/VideoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/classes/com/tt/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/classes/com/tt/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/classes/com/tt/controller/SpeakerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/classes/com/tt/controller/SubjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/classes/com/tt/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/classes/com/tt/controller/VideoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/com/tt/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/com/tt/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/com/tt/controller/SpeakerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/com/tt/controller/SubjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/com/tt/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/com/tt/controller/VideoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/log4j-api-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/log4j-core-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/lombok-1.18.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/video-parent-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EasyCodeConfig/video-admin.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/video-admin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b25c2de7-5aff-4242-805d-0d56406e2d2a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b25c2de7-5aff-4242-805d-0d56406e2d2a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/VideoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/VideoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/entity/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/src/main/resources/mapper/VideoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/target/classes/META-INF/video-parent-dao.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/VideoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/VideoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/target/classes/com/tt/dao/entity/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/target/classes/mapper/VideoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-dao/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-dao/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Speaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/META-INF/video-parent-pojo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Speaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Speaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-pojo/target/classes/com/tt/pojo/Video.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/ImageCut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/MailUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/NavigationTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-utils/video-parent-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-utils/video-parent-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/behind/addVideo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/behind/addVideo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/behind/speakerList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/behind/speakerList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/behind/videoList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/behind/videoList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/tld/commons.tld" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/tld/commons.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/behind/addVideo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/behind/addVideo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/behind/speakerList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/behind/speakerList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/behind/videoList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/jsp/behind/videoList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/video-parent-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/video-parent-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/video-parent-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/lib/video-parent-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/tld/commons.tld" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/tld/commons.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-parent-web/target/video-parent-web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-parent.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,129 +182,22 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-parent-dao/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/VideoDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Admin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Course.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Subject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Video.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Speaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-parent-web/src/main/resources/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/video-parent-utils/pom.xml" />
-        <option value="$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Subject.java" />
-        <option value="$PROJECT_DIR$/video-parent-service/pom.xml" />
-        <option value="$PROJECT_DIR$/video-parent-web/pom.xml" />
-        <option value="$PROJECT_DIR$/video-parent-controller/pom.xml" />
-        <option value="$PROJECT_DIR$/video-parent-dao/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/video-parent-dao/src/main/resources/springmvc.xml" />
-        <option value="$PROJECT_DIR$/video-parent-dao/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/video-parent-dao/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/VideoDao.java" />
-      </list>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\important\the third stage\shuangyu\video-parent\.idea" />
+      </set>
     </option>
   </component>
   <component name="LogFilters">
@@ -199,60 +221,45 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-12" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
-  </component>
+  <component name="ProjectId" id="1j8ENMZBJ6Wz4DFlp5NkBloL8ZQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
-      <hideEmptyPackages ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\TonyChen\video-parent\video-parent-web\src\main\resources" />
-      <recent name="C:\Users\TonyChen\video-parent\video-parent-dao\src\main\resources" />
-      <recent name="C:\Users\TonyChen\video-parent\video-parent-pojo\src\main\java\com\tt\pojo" />
-      <recent name="C:\Users\TonyChen\video-parent\video-parent-dao\src\main\java\com\tt\dao" />
-      <recent name="C:\Users\TonyChen\video-parent\video-parent-web\src\main\webapp\WEB-INF" />
+      <recent name="D:\important\the third stage\shuangyu\video-parent" />
+      <recent name="D:\important\the third stage\shuangyu\video-parent\video-parent-web\src\main\webapp\WEB-INF\jsp\behind" />
+      <recent name="D:\important\the third stage\shuangyu\video-parent\video-parent-dao\src\main\resources" />
+      <recent name="D:\important\the third stage\shuangyu\video-parent-util\src\main\java\com\tt\videos\util" />
+      <recent name="D:\important\the third stage\shuangyu\video-parent\video-parent-pojo\src\main\java\com\tt\pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\TonyChen\video-parent\video-parent-dao\src\main\resources\com\tt\dao" />
+      <recent name="D:\important\the third stage\shuangyu\video-parent" />
+      <recent name="D:\important\the third stage\shuangyu\video-parent\video-parent-web\src\main\resources" />
+      <recent name="D:\important\the third stage\shuangyu\video-parent\video-parent-web\src\main\java\com\tt\controller" />
+      <recent name="D:\important\the third stage\shuangyu\video-parent\video-parent-dao\src\main\resources\com\tt\dao" />
+      <recent name="D:\important\the third stage\shuangyu\video-parent\video-parent-dao\src\main\resources" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -328,6 +335,29 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.14071038" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -342,6 +372,9 @@
       <workItem from="1603159070361" duration="1142000" />
       <workItem from="1603160605544" duration="269000" />
       <workItem from="1603160922533" duration="4897000" />
+      <workItem from="1603177280317" duration="57874000" />
+      <workItem from="1603289444581" duration="703000" />
+      <workItem from="1603290160971" duration="5322000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1603108999141</created>
@@ -381,47 +414,6 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15856000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26758286" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5559503" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32978722" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3623446" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3285968" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.15440582" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.2934519" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -431,260 +423,118 @@
     <MESSAGE value="第3次" />
     <option name="LAST_COMMIT_MESSAGE" value="第3次" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/video-parent-utils/src/main/java/com/tt/videos/utils/Page.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-utils/video-parent-utils.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b25c2de7-5aff-4242-805d-0d56406e2d2a/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/SpeakerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/VideoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-controller/src/main/java/com/tt/controller.java" />
-    <entry file="file://$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/jsp/404.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/resources/springmvc.xml" />
-    <entry file="file://$PROJECT_DIR$/video-parent-controller/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/video-parent-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-dao/target/classes/springmvc.xml" />
-    <entry file="file://$PROJECT_DIR$/video-parent-dao/target/classes/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/maven/maven_room/org/mybatis/mybatis-spring/2.0.2/mybatis-spring-2.0.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/AdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3043">
-          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-web/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/VideoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Speaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/resources/com/tt/dao/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-pojo/src/main/java/com/tt/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-parent-dao/src/main/java/com/tt/dao/VideoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>video-parent-dao</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1603262229350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1603262229350" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603264239752">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603264239752" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1603283746298">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603283746298" />
+    <state x="340" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603179037170">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="340" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1603179037170" />
+    <state x="529" y="279" width="477" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603179183939">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="529" y="279" width="477" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1603179183939" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603271930320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603271930320" />
+    <state x="933" y="173" key="FileChooserDialogImpl" timestamp="1603289784047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="933" y="173" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603289784047" />
+    <state width="1257" height="253" key="GridCell.Tab.0.bottom" timestamp="1603330842442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="253" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603330842442" />
+    <state width="1257" height="253" key="GridCell.Tab.0.center" timestamp="1603330842442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="253" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603330842442" />
+    <state width="1257" height="253" key="GridCell.Tab.0.left" timestamp="1603330842442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="253" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603330842442" />
+    <state width="1257" height="253" key="GridCell.Tab.0.right" timestamp="1603330842442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="253" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603330842442" />
+    <state width="1257" height="253" key="GridCell.Tab.1.bottom" timestamp="1603330842443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="253" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603330842443" />
+    <state width="1257" height="253" key="GridCell.Tab.1.center" timestamp="1603330842443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="253" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603330842443" />
+    <state width="1257" height="253" key="GridCell.Tab.1.left" timestamp="1603330842442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="253" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603330842442" />
+    <state width="1257" height="253" key="GridCell.Tab.1.right" timestamp="1603330842443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="253" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603330842443" />
+    <state width="1257" height="253" key="GridCell.Tab.2.bottom" timestamp="1603330842443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="253" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603330842443" />
+    <state width="1257" height="253" key="GridCell.Tab.2.center" timestamp="1603330842443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="253" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1603330842443" />
+    <state width="1257" height="253" key="GridCell.Tab.2.left" timestamp="1603330842443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="253" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1603330842443" />
+    <state width="1257" height="253" key="GridCell.Tab.2.right" timestamp="1603330842443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="253" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1603330842443" />
+    <state width="1288" height="207" key="GridCell.Tab.3.bottom" timestamp="1603186038546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1288" height="207" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603186038546" />
+    <state width="1288" height="207" key="GridCell.Tab.3.center" timestamp="1603186038545">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1288" height="207" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1603186038545" />
+    <state width="1288" height="207" key="GridCell.Tab.3.left" timestamp="1603186038545">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1288" height="207" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1603186038545" />
+    <state width="1288" height="207" key="GridCell.Tab.3.right" timestamp="1603186038546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1288" height="207" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1603186038546" />
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1603249964770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1603249964770" />
+    <state x="638" y="116" key="NewModule_or_Project.wizard" timestamp="1603289785631">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="638" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1603289785631" />
+    <state x="479" y="0" key="SettingsEditor" timestamp="1603289886369">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603289886369" />
+    <state x="565" y="193" key="chooseDestDirectoryDialog" timestamp="1603243916565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1603243916565" />
+    <state x="344" y="186" key="new project wizard" timestamp="1603290699918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="344" y="186" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1603290699918" />
   </component>
 </project>

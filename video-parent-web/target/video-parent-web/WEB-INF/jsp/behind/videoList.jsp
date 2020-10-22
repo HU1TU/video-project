@@ -55,6 +55,15 @@
             $("#btn").click(function () {
                 if (deleteNum > 0) {
 
+                    var arr = document.getElementsByName("ids");
+                    var checkedArr = "";
+                    for (var i = 0; i < arr.length; i++) {
+                        if (arr[i].checked ){
+                            checkedArr += arr[i].value + ",";
+                        }
+                    }
+
+                    document.getElementById("checkedArr").value = checkedArr;
                     Confirm.show('溫馨提示', '您確定要刪除这' + deleteNum + '条记录嗎？', {
                         'Delete': {
                             'primary': true,
@@ -155,6 +164,12 @@
             }
 
         }
+
+        function queryBook(pageNum) {
+            $("#pageNum").val(pageNum);
+            $("#queryForm").submit();
+
+        }
     </script>
 </head>
 <body>
@@ -214,7 +229,7 @@
         <div class="col-md-4"></div>
         <div class="col-md-6">
             <!-- 查询相关组件 -->
-            <form class="navbar-form navbar-right" action="${pageContext.request.contextPath}/video/list" method="post">
+            <form id="queryForm" class="navbar-form navbar-right" action="${pageContext.request.contextPath}/video/list" method="post">
                 <input type="text" name="title" class="form-control" placeholder="标题" value="${queryVo.title}">
                 <div class="btn-group">
                     <button type="button" id="speakerName"
@@ -267,6 +282,7 @@
                     <input type="hidden" name="courseId" id="courseId" value="${queryVo.courseId}"/>
                 </div>
                 <button type="submit" class="btn btn-info dropdown-toggle">查询</button>
+                <input type="hidden" name="pageNum" id="pageNum" value="1">
             </form>
 
         </div>
@@ -281,6 +297,7 @@
         http://localhost/video/video/delBatchVideos
     -->
     <form id="form2" action="${pageContext.request.contextPath}/video/delBatchVideos" method="post">
+        <input type="hidden" value="" id="checkedArr" name="checkedArr">
         <table class="table table-bordered table-hover"
                style="text-align: center;table-layout:fixed">
             <thead>
@@ -298,7 +315,7 @@
             </tr>
             </thead>
             <tbody>
-            <c:forEach items="${page.rows}" var="video" varStatus="status">
+            <c:forEach items="${videoList}" var="video" varStatus="status">
                 <tr>
                     <td><input type="checkbox" name="ids" value="${video.id}"
                                onclick="selectOne(this)"/></td>
@@ -327,8 +344,13 @@
 </div>
 <div class="container">
     <div class="navbar-right" style="padding-right: 17px">
-        <p:page url="${pageContext.request.contextPath}/video/list"></p:page>
+        <a href="javascript:void(0)" onclick="queryBook(${pageInfo.navigateFirstPage})">首页</a>|
+        <a href="javascript:void(0)" onclick="queryBook(${pageInfo.pageNum-1})">上一页</a>|
+        <a href="javascript:void(0)" onclick="queryBook(${pageInfo.pageNum+1})">下一页</a>|
+        <a href="javascript:void(0)" onclick="queryBook(${pageInfo.navigateLastPage})">尾页</a>|
+        第${pageInfo.pageNum}页/共${pageInfo.pages}页(${pageInfo.total}条)
     </div>
+
 </div>
 
 

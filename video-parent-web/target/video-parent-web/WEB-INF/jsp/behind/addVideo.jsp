@@ -145,8 +145,9 @@
 
 
         <c:if test="${not empty video.id}">
-            <input type="hidden" name="id" value="${video.id}">
+            <input type="text" name="id" value="${video.id}">
         </c:if>
+
 
         <div class="form-group">
             <label class="col-sm-2 control-label">名称</label>

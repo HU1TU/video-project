@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tt.dao.VideoDao">
+
+    <resultMap type="com.tt.pojo.Video" id="VideoMap">
+        <result property="id" column="videoId" jdbcType="INTEGER"/>
+        <result property="title" column="title" jdbcType="VARCHAR"/>
+        <result property="detail" column="detail" jdbcType="VARCHAR"/>
+        <result property="time" column="time" jdbcType="INTEGER"/>
+        <result property="speakerId" column="speaker_id" jdbcType="INTEGER"/>
+        <result property="courseId" column="course_id" jdbcType="INTEGER"/>
+        <result property="videoUrl" column="video_url" jdbcType="VARCHAR"/>
+        <result property="imageUrl" column="image_url" jdbcType="VARCHAR"/>
+        <result property="playNum" column="play_num" jdbcType="INTEGER"/>
+
+        <association property="speaker" javaType="com.tt.pojo.Speaker">
+            <id column="speakerId" property="id"/>
+            <result column="speaker_name" property="speakerName"/>
+            <result column="speaker_desc" property="speakerDesc"/>
+            <result column="speaker_job" property="speakerJob"/>
+            <result column="head_img_url" property="headImgUrl"/>
+        </association>
+    </resultMap>
+
+    <resultMap id="FindVideo" type="com.tt.pojo.Video" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="title" property="title" jdbcType="VARCHAR" />
+        <result column="detail" property="detail" jdbcType="VARCHAR" />
+        <result column="time" property="time" jdbcType="INTEGER" />
+        <result column="speaker_id" property="speakerId" jdbcType="INTEGER" />
+        <result column="course_id" property="courseId" jdbcType="INTEGER" />
+        <result column="video_url" property="videoUrl" jdbcType="VARCHAR" />
+        <result column="image_url" property="imageUrl" jdbcType="VARCHAR" />
+        <result column="play_num" property="playNum" jdbcType="INTEGER" />
+
+        <association property="course" javaType="com.tt.pojo.Course">
+            <id column="cid" property="id" jdbcType="INTEGER" />
+            <result column="course_title" property="courseTitle" jdbcType="VARCHAR" />
+            <result column="subject_id" property="subjectId" jdbcType="INTEGER" />
+            <result column="course_desc" property="courseDesc" jdbcType="LONGVARCHAR" />
+        </association>
+
+        <association property="speaker" javaType="com.tt.pojo.Speaker">
+            <id column="sid" property="id" />
+            <result column="speaker_name" property="speakerName" />
+            <result column="speaker_desc" property="speakerDesc" />
+            <result column="speaker_job" property="speakerJob" />
+            <result column="head_img_url" property="headImgUrl" />
+        </association>
+    </resultMap>
+
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="VideoMap">
+        select
+          id videoId, title, detail, time, speaker_id, course_id, video_url, image_url, play_num
+        from video.video
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="VideoMap">
+        select
+          id, title, detail, time, speaker_id, course_id, video_url, image_url, play_num
+        from video.video
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="VideoMap">
+        select v.id videoId,v.title,v.detail,v.time,v.speaker_id,
+        v.course_id,v.video_url,v.image_url,v.play_num,
+        s.id speakerId, s.speaker_name,s.speaker_desc,s.speaker_job,s.head_img_url
+        from video v,speaker s where  v.speaker_id = s.id
+        <trim>
+            <if test="title!=null and title!=''">
+                and v.title like concat('%',#{title},'%')
+            </if>
+            <if test="speakerId!=null and speakerId!=''">
+                and v.speaker_id=#{speakerId}
+            </if>
+            <if test="courseId!=null and courseId!=''">
+                and v.course_id=#{courseId}
+            </if>
+        </trim>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+      insert into video (id, title, time,
+      speaker_id, course_id, video_url,
+      image_url, play_num, detail
+      )
+    values (#{id,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, #{time,jdbcType=INTEGER},
+      #{speakerId,jdbcType=INTEGER}, #{courseId,jdbcType=INTEGER}, #{videoUrl,jdbcType=VARCHAR},
+      #{imageUrl,jdbcType=VARCHAR}, #{playNum,jdbcType=INTEGER}, #{detail,jdbcType=LONGVARCHAR}
+      )
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update video
+        <set>
+            <if test="title != null and title != ''">
+                title = #{title},
+            </if>
+            <if test="detail != null and detail != ''">
+                detail = #{detail},
+            </if>
+            <if test="time != null">
+                time = #{time},
+            </if>
+            <if test="speakerId != null">
+                speaker_id = #{speakerId},
+            </if>
+            <if test="courseId != null">
+                course_id = #{courseId},
+            </if>
+            <if test="videoUrl != null and videoUrl != ''">
+                video_url = #{videoUrl},
+            </if>
+            <if test="imageUrl != null and imageUrl != ''">
+                image_url = #{imageUrl},
+            </if>
+            <if test="playNum != null">
+                play_num = #{playNum},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from video.video where id = #{id}
+    </delete>
+
+    <select id="fingVideo" resultMap="FindVideo">
+     SELECT c.id as cid,c.course_title,c.subject_id,c.course_desc,v.id,v.title,v.detail,v.time,
+    v.speaker_id,v.course_id,v.video_url,v.image_url,v.play_num,s.id as sid,s.speaker_name,s.speaker_desc,s.speaker_job,s.head_img_url FROM
+    video.course c INNER JOIN video v ON c.id=v.course_id INNER JOIN speaker s ON v.speaker_id=s.id WHERE v.id=#{id}
+    </select>
+
+    <delete id="deleteVideos" parameterType="Object[]">
+        delete  from video
+        <where>
+            <if test="array  != null and array.length > 0">
+                <foreach collection="array" open="id in (" close=")" item="id" separator=",">
+                    #{id}
+                </foreach>
+            </if>
+        </where>
+    </delete>
+</mapper>

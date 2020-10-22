@@ -1,5 +1,6 @@
 package com.tt.dao;
 
+import com.tt.pojo.QueryVo;
 import com.tt.pojo.Video;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
@@ -8,7 +9,7 @@ import java.util.List;
  * (Video)表数据库访问层
  *
  * @author makejava
- * @since 2020-10-20 10:48:49
+ * @since 2020-10-20 15:13:19
  */
 public interface VideoDao {
 
@@ -33,10 +34,10 @@ public interface VideoDao {
     /**
      * 通过实体作为筛选条件查询
      *
-     * @param video 实例对象
+     * @param queryVo 实例对象
      * @return 对象列表
      */
-    List<Video> queryAll(Video video);
+    List<Video> queryAll(QueryVo queryVo);
 
     /**
      * 新增数据
@@ -50,9 +51,8 @@ public interface VideoDao {
      * 修改数据
      *
      * @param video 实例对象
-     * @return 影响行数
      */
-    int update(Video video);
+    void update(Video video);
 
     /**
      * 通过主键删除数据
@@ -62,4 +62,7 @@ public interface VideoDao {
      */
     int deleteById(Integer id);
 
+    Video findVideo(Integer id);
+
+    void deleteVideos(String[] ids);
 }

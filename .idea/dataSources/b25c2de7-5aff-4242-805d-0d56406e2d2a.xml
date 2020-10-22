@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.15">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.17">
     <root id="1">
       <ServerVersion>5.7.13</ServerVersion>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -51,7 +51,6 @@
       <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="16" parent="1" name="video">
-      <Visible>1</Visible>
       <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="17" parent="1" name="work">

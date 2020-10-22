@@ -2,11 +2,19 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/video-parent-controller" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/video-parent-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video-parent-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video-parent-dao/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/video-parent-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video-parent-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video-parent-pojo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/video-parent-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/video-parent-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video-parent-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video-parent-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video-parent-utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video-parent-utils/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/video-parent-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video-parent-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video-parent-web/src/main/resources" charset="UTF-8" />
   </component>
 </project>

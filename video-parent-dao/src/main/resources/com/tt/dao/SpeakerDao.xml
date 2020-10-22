@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tt.dao.SpeakerDao">
+
+    <resultMap type="com.tt.pojo.Speaker" id="SpeakerMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="speakerName" column="speaker_name" jdbcType="VARCHAR"/>
+        <result property="speakerDesc" column="speaker_desc" jdbcType="VARCHAR"/>
+        <result property="speakerJob" column="speaker_job" jdbcType="VARCHAR"/>
+        <result property="headImgUrl" column="head_img_url" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="SpeakerMap">
+        select
+          id, speaker_name, speaker_desc, speaker_job, head_img_url
+        from video.speaker
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="SpeakerMap">
+        select
+          id, speaker_name, speaker_desc, speaker_job, head_img_url
+        from video.speaker
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="SpeakerMap">
+        select
+          id, speaker_name, speaker_desc, speaker_job, head_img_url
+        from video.speaker
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="speakerName != null and speakerName != ''">
+                and speaker_name = #{speakerName}
+            </if>
+            <if test="speakerDesc != null and speakerDesc != ''">
+                and speaker_desc = #{speakerDesc}
+            </if>
+            <if test="speakerJob != null and speakerJob != ''">
+                and speaker_job = #{speakerJob}
+            </if>
+            <if test="headImgUrl != null and headImgUrl != ''">
+                and head_img_url = #{headImgUrl}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into video.speaker(speaker_name, speaker_desc, speaker_job, head_img_url)
+        values (#{speakerName}, #{speakerDesc}, #{speakerJob}, #{headImgUrl})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update video.speaker
+        <set>
+            <if test="speakerName != null and speakerName != ''">
+                speaker_name = #{speakerName},
+            </if>
+            <if test="speakerDesc != null and speakerDesc != ''">
+                speaker_desc = #{speakerDesc},
+            </if>
+            <if test="speakerJob != null and speakerJob != ''">
+                speaker_job = #{speakerJob},
+            </if>
+            <if test="headImgUrl != null and headImgUrl != ''">
+                head_img_url = #{headImgUrl},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from video.speaker where id = #{id}
+    </delete>
+
+</mapper>

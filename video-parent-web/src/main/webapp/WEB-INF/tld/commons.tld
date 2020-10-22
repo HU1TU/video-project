@@ -12,7 +12,7 @@
 
 	<tag>
 		<name>page</name>
-		<tag-class>com.qf.videos.utils.NavigationTag</tag-class>
+		<tag-class>com.tt.videos.util.NavigationTag</tag-class>
 		<body-content>JSP</body-content>
 		<description>create navigation for paging</description>
 		<attribute>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tt.dao.SubjectDao">
+
+    <resultMap type="com.tt.pojo.Subject" id="SubjectMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="subjectName" column="subject_name" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="SubjectMap">
+        select
+          id, subject_name
+        from video.subject
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="SubjectMap">
+        select
+          id, subject_name
+        from video.subject
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="SubjectMap">
+        select
+          id, subject_name
+        from video.subject
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="subjectName != null and subjectName != ''">
+                and subject_name = #{subjectName}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into video.subject(subject_name)
+        values (#{subjectName})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update video.subject
+        <set>
+            <if test="subjectName != null and subjectName != ''">
+                subject_name = #{subjectName},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from video.subject where id = #{id}
+    </delete>
+
+</mapper>

@@ -47,6 +47,11 @@
                 }
             });
         }
+        function queryBook(pageNum) {
+            $("#pageNum").val(pageNum);
+            $("#queryForm").submit();
+        }
+
     </script>
     <style type="text/css">
         th {
@@ -105,7 +110,7 @@
 </div>
 
 <div class="container" style="margin-top: 20px;">
-
+<form id="queryForm" action="/speaker/showSpeakerList">
     <table class="table table-bordered table-hover"
            style="text-align: center;table-layout:fixed;">
         <thead>
@@ -119,7 +124,7 @@
         </tr>
         </thead>
         <tbody>
-        <c:forEach items="${page.rows}" var="speaker" varStatus="status">
+        <c:forEach items="${speakerList}" var="speaker" varStatus="status">
             <tr>
                 <td>${status.index+1}</td>
                 <td>${speaker.speakerName}</td>
@@ -137,11 +142,19 @@
 
         </tbody>
     </table>
+    <input type="hidden" name="pageNum" id="pageNum">
+</form>
+
 </div>
 <div class="container">
     <div class="navbar-right" style="padding-right: 17px">
-        <p:page url="${pageContext.request.contextPath}/speaker/showSpeakerList"></p:page>
+        <a href="javascript:void(0)" onclick="queryBook(${pageInfo.navigateFirstPage})">首页</a>|
+        <a href="javascript:void(0)" onclick="queryBook(${pageInfo.pageNum-1})">上一页</a>|
+        <a href="javascript:void(0)" onclick="queryBook(${pageInfo.pageNum+1})">下一页</a>|
+        <a href="javascript:void(0)" onclick="queryBook(${pageInfo.navigateLastPage})">尾页</a>|
+        第${pageInfo.pageNum}页/共${pageInfo.pages}页(${pageInfo.total}条)
     </div>
+
 </div>
 </body>
 

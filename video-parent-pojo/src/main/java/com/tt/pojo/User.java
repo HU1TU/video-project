@@ -1,5 +1,7 @@
 package com.tt.pojo;
 
+import lombok.Data;
+
 import java.util.Date;
 import java.io.Serializable;
 
@@ -9,9 +11,9 @@ import java.io.Serializable;
  * @author makejava
  * @since 2020-10-20 10:54:21
  */
-public class User implements Serializable {
-    private static final long serialVersionUID = 322662325057029839L;
-    
+@Data
+public class User {
+
     private Integer id;
     
     private String email;

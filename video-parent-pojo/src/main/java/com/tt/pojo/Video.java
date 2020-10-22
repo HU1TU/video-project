@@ -1,5 +1,7 @@
 package com.tt.pojo;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
@@ -8,9 +10,9 @@ import java.io.Serializable;
  * @author makejava
  * @since 2020-10-20 10:47:18
  */
-public class Video implements Serializable {
-    private static final long serialVersionUID = 381909431829102468L;
-    
+@Data
+public class Video {
+
     private Integer id;
     /**
     * 标题
@@ -45,6 +47,15 @@ public class Video implements Serializable {
     */
     private Integer playNum;
 
+    private Speaker speaker;
+
+    public Speaker getSpeaker() {
+        return speaker;
+    }
+
+    public void setSpeaker(Speaker speaker) {
+        this.speaker = speaker;
+    }
 
     public Integer getId() {
         return id;

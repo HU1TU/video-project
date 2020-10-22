@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tt.dao.CourseDao">
+
+    <resultMap type="com.tt.pojo.Course" id="CourseMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="courseTitle" column="course_title" jdbcType="VARCHAR"/>
+        <result property="courseDesc" column="course_desc" jdbcType="VARCHAR"/>
+        <result property="subjectId" column="subject_id" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="CourseMap">
+        select
+          id, course_title, course_desc, subject_id
+        from video.course
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="CourseMap">
+        select
+          id, course_title, course_desc, subject_id
+        from video.course
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="CourseMap">
+        select
+          id, course_title, course_desc, subject_id
+        from video.course
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="courseTitle != null and courseTitle != ''">
+                and course_title = #{courseTitle}
+            </if>
+            <if test="courseDesc != null and courseDesc != ''">
+                and course_desc = #{courseDesc}
+            </if>
+            <if test="subjectId != null">
+                and subject_id = #{subjectId}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into video.course(course_title, course_desc, subject_id)
+        values (#{courseTitle}, #{courseDesc}, #{subjectId})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update video.course
+        <set>
+            <if test="courseTitle != null and courseTitle != ''">
+                course_title = #{courseTitle},
+            </if>
+            <if test="courseDesc != null and courseDesc != ''">
+                course_desc = #{courseDesc},
+            </if>
+            <if test="subjectId != null">
+                subject_id = #{subjectId},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from video.course where id = #{id}
+    </delete>
+
+</mapper>
