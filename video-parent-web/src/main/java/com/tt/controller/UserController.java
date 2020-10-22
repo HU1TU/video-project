@@ -187,7 +187,7 @@ public class UserController {
 
     @RequestMapping("/upLoadImage")
     public String upLoadImage(@RequestParam("image_file") MultipartFile imageFile, String x1, String x2, String y1, String y2, HttpServletRequest request) throws IOException {
-        String path = "D:\\server\\apache-tomcat-8.5.31\\webapps\\video\\";
+        String path = "F:\\WebSoft\\apache-tomcat-8.5.41\\webapps\\upload\\";
         File file = new File(path);
         if (!file.exists()) {
             file.mkdirs();
