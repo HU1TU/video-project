@@ -74,7 +74,7 @@ public class UserController {
 
     @RequestMapping("/forgetPassword")
     public String forgetPassword() {
-        return "/before/forget_password";
+        return "/before/forget_password.jsp";
     }
 
     @RequestMapping("/sendEmail")
@@ -126,7 +126,7 @@ public class UserController {
         HttpSession session = request.getSession();
         User user = userService.selectUserByEmail((String) session.getAttribute("userAccount"));
         session.setAttribute("user", user);
-        return "/before/my_profile";
+        return "/before/my_profile.jsp";
     }
 
     @RequestMapping("/loginOut2")
@@ -156,7 +156,7 @@ public class UserController {
 
     @RequestMapping("/passwordSafe")
     public String passwordSafe() {
-        return "/before/password_safe";
+        return "/before/password_safe.jsp";
     }
 
     @RequestMapping("/validatePassword")
@@ -181,7 +181,7 @@ public class UserController {
 
     @RequestMapping("/changeAvatar")
     public String changeAvatar() {
-        return "/before/change_avatar";
+        return "/before/change_avatar.jsp";
     }
 
     @RequestMapping("/upLoadImage")
