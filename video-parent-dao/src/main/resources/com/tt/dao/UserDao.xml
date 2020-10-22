@@ -123,7 +123,7 @@
         delete from video.user where id = #{id}
     </delete>
 
-    <select id="selectUserByEmailAndPassword" parameterType="com.qf.videos.pojo.User" resultType="com.qf.videos.pojo.User">
+    <select id="selectUserByEmailAndPassword" parameterType="com.tt.pojo.User" resultType="com.tt.pojo.User">
         select * from user
         where
         email = #{email}
@@ -131,18 +131,18 @@
         password = #{password}
     </select>
 
-    <select id="selectUserByEmail" parameterType="String" resultType="com.qf.videos.pojo.User">
+    <select id="selectUserByEmail" parameterType="String" resultType="com.tt.pojo.User">
         select * from user
         where
         email = #{email}
     </select>
 
-    <insert id="insertUser" parameterType="com.qf.videos.pojo.User">
+    <insert id="insertUser" parameterType="com.tt.pojo.User">
         insert into user (email,password,createTime)
         values (#{email},#{password},#{createTime})
     </insert>
 
-    <update id="updateUser" parameterType="com.qf.videos.pojo.User">
+    <update id="updateUser" parameterType="com.tt.pojo.User">
         UPDATE user SET
         email = #{email},
         phoneNum = #{phoneNum},
