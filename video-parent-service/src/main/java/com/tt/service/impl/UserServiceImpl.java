@@ -77,4 +77,24 @@ public class UserServiceImpl implements UserService {
     public boolean deleteById(Integer id) {
         return this.userDao.deleteById(id) > 0;
     }
+
+    @Override
+    public User selectUserByEmailAndPassword(User user) {
+        return userDao.selectUserByEmailAndPassword(user);
+    }
+
+    @Override
+    public User selectUserByEmail(String email) {
+        return userDao.selectUserByEmail(email);
+    }
+
+    @Override
+    public Boolean insertUser(User user) {
+        return userDao.insertUser(user);
+    }
+
+    @Override
+    public Boolean updateUser(User user) {
+        return userDao.updateUser(user);
+    }
 }
